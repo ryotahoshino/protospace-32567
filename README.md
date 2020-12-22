@@ -29,8 +29,8 @@
 |Column     |Type          |Option      |
 | --------- | ------------ | ---------- |
 |title      |string        |null: false |
-|catch_copy |text          |            |
-|concept    |text          |            |
+|catch_copy |text          |null: false |
+|concept    |text          |null: false |
 |image      |              |            |
 |user       |reference     |null: false, foreign_key: true|
 
